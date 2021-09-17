@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+ width: 100%;
+      opacity: 0.7;
+}
+#nav-bar li{
+    float: left;
+} 
+
+#nav-bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:1.1rem 2.5rem;
+}
+#nav-bar a img{
+    float:right;
+    width:3rem;
+    height:3.2rem;
+    max-width: 100%;
+}
+#nav-bar li:hover{
+    background-color: rgb(250, 227, 227);
+
+}
+#nav-bar li a:hover{
+    color:black;
+}
+#nav-bar li:active{
+    background-color:rgb(250, 227, 227);
+  }
+#About{
+    background-image: url("blood\ donate.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#About h1
+{
+    text-align:center;
+    padding-top:10%;
+    padding-bottom:8%;
+    line-height:4rem;
+    
+}
+#About h1:hover{
+    font-size: 2rem;
+}
+#About h2{
+    text-align:center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:6%;
+    line-height:3rem;
+}
+#Facts h1{
+text-align:left;
+line-height: 3rem;
+margin: 2% 2%;
+padding: 1% 1%;
+border: 0.4rem red solid;
+border-radius: 0.8rem;
+background-color: rgb(255, 225, 223);
+}
+
+#Facts h2{
+    text-align:left;
+    line-height: 3rem;
+    margin: 2% 2%;
+    padding: 1% 1%;
+    border: 0.4rem rgb(240, 129, 129) solid;
+    border-radius: 0.8rem;
+    background-color: rgb(255, 225, 223);
+    font-size:1.5rem;
+}
+#Facts h3{
+    text-align:left;
+    line-height: 3rem;
+    margin: 2% 2%;
+    padding: 1% 1%;
+    border: 0.4rem rgb(245, 199, 199) solid;
+    border-radius: 0.8rem;
+    background-color: rgb(255, 225, 223);
+    font-size: 1.5rem;
+}
+#Facts h4{
+    text-align:center;
+    font-size:2.5rem;
+    color:black;
+    padding-top: 1%;
+}
+
+input[type=text]
+{
+    width: 30%;
+    margin: 1rem 0rem;
+}
+#Contact-us{
+    background-image: url("4fd86f4e-f807-44e4-bdc4-34da4a88da2b.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Contact-us h1{
+  text-align:center;
+  font-size:4rem;
+}
+form{
+    padding-top: 6%;
+    padding-left: 30%;
+    font-size:1.5rem;
+    padding-bottom: 9%;
+    
+}
+input[type=submit]
+{   margin-top: 1rem;;
+    width:4rem;
+    height:1rem;
+    
+}
+label{
+    font-size:2rem;
+}
+footer{
+   background-color: black;
+   padding:6% 0%;  
+   color:white;
+   text-align:center;
+   font-size: 0.8rem;
+}
